@@ -13,3 +13,8 @@ export async function setPushToken(token: string) {
         throw error.message
     }
 }
+
+export async function getPushToken (){
+    return await redis.get('push-token')
+    
+}
