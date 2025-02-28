@@ -7,7 +7,7 @@ dialog[open] {
 }
 
 .productDialog {
-
+  position: relative;
   user-select: none;
   overflow: visible;
   outline: none;
