@@ -2,7 +2,12 @@
   scrollbar-width: none;
 }
 
+dialog[open] {
+  display: block !important;
+}
+
 .productDialog {
+
   user-select: none;
   overflow: visible;
   outline: none;

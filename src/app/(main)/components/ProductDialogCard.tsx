@@ -75,7 +75,7 @@ const ProductDialogCard = ({ product }: { product: Product }) => {
       />
       <dialog
         ref={dialog}
-        className="backdrop:bg-[#184ca75a] outline-0 m-auto overflow-hidden w-3xs rounded-md"
+        className="productDialog"
         onClick={closeDialogByBounding}
       >
         <IoIosCloseCircleOutline
